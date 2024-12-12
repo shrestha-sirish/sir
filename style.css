@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: "Barlow", sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+display: flex;
+gap: 20px;
+}
+nav a{
+    color: black;
+    font-weight: bold;
+}
+.btn{
+    background: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.slide{
+    padding: 25px;
+    height: 90vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.279),rgba(0, 0, 0, 0.279)) ,url(https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-autumn-nature-with-a-river-in-the-middle-of-the-forest-free-image.jpeg?w=600&quality=80);
+    background-size: cover;
+}
+.about{
+    padding: 20px 0;
+}
+.about h3{
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-size: larger;
+}
+.about p{
+    color: black; text-align: left;
+}
+.gap{
+    gap: 20px;
+}
+.feature{
+    background: #c18f7c;
+    padding: 30px 0;
+}
+.fbox{
+    background: white;
+    padding: 25px;
+    box-shadow: 10px 10px 15px 0px gray;
+border-radius: 5px;
+} 
+p{line-height: 1.7;}
+h3{
+    padding: 0px 0 15px 0;
+}
+.News{
+    padding: 20px 0;
+}
+.News img{
+    width: 100%;
+}
+h2{
+    padding-bottom: 25px;
+}
+footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.453),rgba(0, 0, 0, 0.437)), url(https://gratisography.com/wp-content/uploads/2024/01/gratisography-cyber-kitty-800x525.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    background-position: center;
+}
+.first{
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(black,white,blue) , url(https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D);
+}
